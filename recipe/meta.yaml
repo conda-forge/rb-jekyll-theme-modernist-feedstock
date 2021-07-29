@@ -1,6 +1,6 @@
 {% set theme_name = "modernist" %}
 {% set name = '-'.join(['jekyll-theme', theme_name]) %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 75af5553ff42748642e6cebf3e9ad77c29c7fbc6a93ba03518a70546487aef28
+  sha256: 4be775bc5edd53864c5e40c000c34db0dfd82dac800cff50371ef11da66dfbcf
 
 build:
   noarch: generic
